@@ -1,0 +1,40 @@
+nav {
+    text-transform: uppercase; /* All caps */
+    font-size: 1.2rem; /* Adjust font size as needed */
+    background-color: transparent; /* No background color */
+    color: #333; /* Very dark grey, or use #000 for black */
+    padding: 75px 0 30px 0; /* Optional: Adjust padding to your preference */
+    margin: 0 auto;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Space between menu items */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent (nav) */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  nav ul li a:hover {
+    color: #000; /* Change color on hover if desired */
+  }
+  
+  .roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  

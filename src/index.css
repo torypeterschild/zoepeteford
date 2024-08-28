@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  color: #000;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  text-transform: lowercase;
+}
+
+.app-container {
+  max-width: 800px; /* Match or be less than the navbar's max-width */
+  margin: 0 auto; /* Center content */
+  padding: 10px 50px; /* Optional: Add padding for content */
+}

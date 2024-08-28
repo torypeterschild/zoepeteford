@@ -1,0 +1,13 @@
+.home-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if needed) */
+    height: auto; /* Adjust height to fit the viewport minus footer height */
+    margin-bottom: 40px; /* Ensure there's space at the bottom for the footer */
+  }
+  
+  .home-image {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra space below the image */
+  }

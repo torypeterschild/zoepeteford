@@ -1,0 +1,54 @@
+.shows-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .shows-column {
+    width: 48%; /* Adjust width to fit two columns */
+  }
+  
+  .shows-column h3 {
+    font-family: 'Montserrat', sans-serif; /* Use a modern font like Montserrat */
+    font-size: 1rem; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+    color: #333; /* Dark gray color */
+    text-align: center; /* Center the text */
+    border-bottom: 2px solid #808080; /* Add an underline with a custom color */
+    padding-bottom: 10px; /* Add some space below the text */
+    margin-bottom: 20px; /* Increase the space below the header */
+  }
+  
+  .shows-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .shows-column li {
+    margin-bottom: 15px;
+  }
+  
+  .shows-column p {
+    margin: 0;
+  }
+  
+  .shows-column a {
+    color: #808080;
+  }
+  
+  .shows-column a:hover {
+    text-decoration: underline;
+  }
+
+  .past {
+    color: grey;
+  }
+
+  .upcoming h3 {
+    color: #FF69B4;
+  }
+
+  .upcoming a {
+    color: #FF69B4;
+  }
+  
